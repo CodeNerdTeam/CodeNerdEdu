@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="110dp"
+            app:cardBackgroundColor="@color/pink_3"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/playIcon"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/play_button" />
+
+                <TextView
+                    android:id="@+id/titleVid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/playIcon"
+                    android:letterSpacing="0.03"
+                    android:text="Tiêu đề video"
+                    android:textColor="@color/blue_grey"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/totalLessonsTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titleVid"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/playIcon"
+                    android:text="Số bài học"
+                    android:textColor="@color/pink_2"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/deleteIcon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_delete"
+                    app:tint="@color/red" />
+
+                <TextView
+                    android:id="@+id/timeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/deleteIcon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="dd/MM/yyyy"
+                    android:textColor="@color/blue_2"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

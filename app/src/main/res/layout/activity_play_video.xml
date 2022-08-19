@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/video_bg"
+    tools:context=".PlayVideoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_gravity="center" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_below="@+id/videoView"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/titleVideoTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="75dp"
+                android:text="Tiêu đề video"
+                android:textColor="@color/blue_grey"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Lùi lại 10 giây -->
+        <Button
+            android:id="@+id/btnBack10sec"
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="115dp"
+            android:background="@android:color/transparent" />
+
+        <!-- Play/Pasue -->
+        <Button
+            android:id="@+id/btnPlayOrPause"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="115dp"
+            android:background="@android:color/transparent"
+            android:onClick="PlayButton" />
+
+        <!-- Chuyển tiếp 10 giây -->
+        <Button
+            android:id="@+id/btnForward10sec"
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="255dp"
+            android:layout_marginTop="115dp"
+            android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+</LinearLayout>

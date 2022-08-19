@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "196570849103",
+    "project_id": "code-nerd-edu-953eb",
+    "storage_bucket": "code-nerd-edu-953eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196570849103:android:6a26842e2fb759b66a2f3a",
+        "android_client_info": {
+          "package_name": "codenerdteam.codenerdedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196570849103-htiekrmapnvpfi465rfubjjpeerbbudi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "codenerdteam.codenerdedu",
+            "certificate_hash": "027f667b89b640b1361d8af1dd0db2c7c709812f"
+          }
+        },
+        {
+          "client_id": "196570849103-s2butb1s20qb77m0j0smicdbtok0qbnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs1mKmHjHLMoKCyVvai6sJlR-kLSJGXVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196570849103-s2butb1s20qb77m0j0smicdbtok0qbnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

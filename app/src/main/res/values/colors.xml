@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#68E299</color>
+    <color name="colorPrimaryDark">#51B6CF</color>
+    <color name="colorAction">#D81B60</color>
+    <color name="colorBg">#0F707070</color>
+    <color name="colorView">#27707070</color>
+
+    <color name="purple_">#ff4081</color>
+    <color name="purple_200">#296D98</color>
+    <color name="purple_500">#296D98</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="red">#EF0148</color>
+    <color name="blue_grey">#305f72</color>
+    <color name="pink_1">#fae4f4</color>
+    <color name="pink_2">#f18c8e</color>
+    <color name="pink_3">#ffe9f9</color>
+    <color name="pink_4">#fbf5ff</color>
+    <color name="yellow_1">#fff5e5</color>
+    <color name="yellow_2">#fff1ef</color>
+    <color name="blue_1">#eaf9fe</color>
+    <color name="blue_2">#D86DFF</color>
+    <color name="grey">#707070</color>
+    <color name="dark_grey">#2D2D2D</color>
+
+    <color name="purple_1">#F4EAF8</color>
+    <color name="purple_2">#CFF4F4</color>
+
+    <color name="blue_shade_1">#0e2433</color>
+    <color name="blue_shade_2">#1C4966</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:overrise="true">#296D98</color>
+
+    <color name="text_shadow">#7F000000</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="purple">#ac3ef9</color>
+    <color name="blackTxt">#0d0e15</color>
+    <color name="grayTxt">#8c8c8c</color>
+    <color name="light_gray40">#8d95989a</color>
+    <color name="fav">#fe2402</color>
+    <color name="txt_color">#1f2833</color>
+    <color name="active_color">#dd3e3e</color>
+    <color name="inactive_color">#a0a0a0</color>
+    <color name="myfav">#007aff</color>
+
+    <color name="buttonTxt">#50C2C9</color>
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+</resources>

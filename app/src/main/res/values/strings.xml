@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Code Nerd Edu</string>
+    <string name="subtitle_1">subtile 1 subtile 1 subtile 1 subtile 1 subtile 1</string>
+    <string name="subtitle_2">subtile 2 subtile 2 subtile 2 subtile 2 subtile 2</string>
+    <string name="subtitle_3">subtile 3 subtile 3 subtile 3 subtile 3 subtile 3</string>
+
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <string name="email">Email</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="nhap_lai_mat_khau">Nhập lại mật khẩu</string>
+    <string name="lay_lai_mat_khau">Lấy lại mật khẩu</string>
+    <string name="upload">Tải lên</string>
+    <string name="tiep_tuc">Tiếp tục</string>
+    <string name="bat_dau">Bắt đầu</string>
+    <string name="bo_qua">Bỏ qua</string>
+    <string name="tro_lai">Trở lại</string>
+    <string name="thoat">Bạn có chắc chắn muốn thoát phiên đăng nhập?</string>
+
+    <string name="please_wait">Vui lòng đợi trong giây lát</string>
+
+    <!-- Cho font chữ "Đăng ký" đậm-->
+    <string name="chua_co_tai_khoan">Bạn đã có tài khoản chưa?</string>
+    <string name="co_tai_khoan">Bạn đã có tài khoản?</string>
+    <string name="quen_mat_khau">Quên mật khẩu?</string>
+    <string name="des_quen_mat_khau">Cung cấp tài khoản Email của bạn mà bạn muốn đặt lại mật khẩu của mình!</string>
+    <string name="tim_kiem">Tìm kiếm kiến thức mới</string>
+    <string name="slogan">Bắt đầu học để\ntrở thành Hero</string>
+    <string name="the_loai">Các thể loại"</string>
+
+    <string name="action_search">Tìm kiếm</string>
+
+    <string name="navigation_drawer_open">Mở ngăn điều hướng</string>
+    <string name="navigation_drawer_close">Đóng ngăn điều hướng</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_favorite">Yêu thích</string>
+    <string name="nav_history">Lịch sử</string>
+    <string name="nav_account">Tài khoản</string>
+    <string name="nav_profile">Thông tin tài khoản</string>
+    <string name="nav_changePassword">Thay đổi mật khẩu</string>
+    <string name="nav_pricing">Nâng cấp</string>
+    <string name="nav_communication">Giao tiếp</string>
+    <string name="nav_share">Chia sẻ</string>
+    <string name="nav_rate">Đánh giá</string>
+    <string name="nav_logout">Đăng xuất</string>
+
+    <string name="tieu_de_khoa_hoc">Tiêu đề khoá học</string>
+    <string name="so_luong_bai_hoc">Số lượng bài học</string>
+
+    <string name="pricing_title">Học nhiều khoá học hơn với premium</string>
+    <string name="tiep_tuc_thanh_toan">Tiếp tục thanh toán</string>
+    <string name="free_trial">Dùng thử</string>
+    <string name="medium">Medium</string>
+    <string name="premium">Premium</string>
+    <string name="_14_days">14 ngày</string>
+    <string name="_5_courses_a_month">5 khoá học/tháng</string>
+    <string name="_10_courses_a_month">10 khoá học/tháng</string>
+    <string name="no_money">0 VNĐ</string>
+    <string name="_349k">349K VNĐ</string>
+    <string name="_599k">599K VNĐ</string>
+
+    <string name="heading_1">Heading 1</string>
+    <string name="heading_2">Heading 2</string>
+    <string name="heading_3">Heading 3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

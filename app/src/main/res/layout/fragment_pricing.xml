@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.PricingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/sp_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pricing_title"
+                android:textSize="45dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="80dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/box_active">
+
+                    <TextView
+                        android:id="@+id/ct1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/free_trial"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/pink_2"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="16dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_14_days"
+                        android:textSize="20dp"
+                        android:textColor="@color/pink_2"
+                        android:layout_marginLeft="30dp"
+                        android:layout_below="@+id/ct1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_money"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/pink_2"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/box_inactive">
+
+                    <TextView
+                        android:id="@+id/ct2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/medium"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_grey"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="16dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5_courses_a_month"
+                        android:textSize="20dp"
+                        android:textColor="@color/pink_2"
+                        android:layout_marginLeft="30dp"
+                        android:layout_below="@+id/ct2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_349k"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/pink_2"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/box_inactive">
+
+                    <TextView
+                        android:id="@+id/ct3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/premium"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_grey"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="16dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_10_courses_a_month"
+                        android:textSize="20dp"
+                        android:textColor="@color/pink_2"
+                        android:layout_marginLeft="30dp"
+                        android:layout_below="@+id/ct3"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_599k"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/pink_2"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dp"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tiep_tuc_thanh_toan"
+                        android:textColor="@color/pink_2"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="50dp"/>
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/pink_button_arrow"
+                        android:layout_marginLeft="70dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
